@@ -1,0 +1,7 @@
+v = input('Digite algo:')
+print(f'A classe primitiva de {v} é: {type(v)}')
+print(f'É tudo maiúsculo? {v.isupper()}')
+print(f'É tudo minúsculo? {v.islower()}')
+print(f'É alfabético? {v.isalpha()}')
+print(f'É alfanumérico? {v.isalnum()}')
+print(f'Só tem espaços? {v.isspace()}')

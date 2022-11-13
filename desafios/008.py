@@ -1,5 +1,11 @@
 print('Bem vindo ao conversor.net!')
-v = float(input('Quantos metros você deseja converter?'))
-mtc = v*100
-mtm = v*1000
-print(f'{v} metro(s) é igual a: {mtc} centimetro(s) e {mtm} milimetro(s)!')
+m = float(input('Quantos metros você deseja converter?'))
+
+mm = m*1000
+cm = m*100
+dm = m*10
+dam = m/(10)
+hm = m/(100)
+km = m/(1000)
+
+print(f'{m} metros é igual a {mm}mm, {cm}cm, {dm}dm, {dam}dam, {hm}hm e {km}km.')

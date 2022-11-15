@@ -7,6 +7,6 @@ O programa deve ler o input do usuário e definir se a passagem é 0,5/km ou 0,4
 print('Bom dia! Seja bem vindo ao pricecalculator.online!')
 km = float(input('Quantos kilometros você percorreu?'))
 if km < 200:
-    print(f'O valor total da sua viagem é: R${km*(0.5)}')
+    print(f'O valor total da sua viagem é: R${km*(0.5):.2f}')
 else: 
-    print(f'O valor total da sua viagem é: R${km*(0.45)}')
+    print(f'O valor total da sua viagem é: R${km*(0.45):.2f}')

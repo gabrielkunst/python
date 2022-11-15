@@ -2,9 +2,9 @@
 O programa deve ler 3 números inserido pelo usuário e dizer qual é o menor e qual é o maior.
 """
 
-n1 = float(input('Insira o primeiro número:'))
-n2 = float(input('Insira o segundo número:'))
-n3 = float(input('Insira o terceiro número:'))
+n1 = int(input('Insira o primeiro número:'))
+n2 = int(input('Insira o segundo número:'))
+n3 = int(input('Insira o terceiro número:'))
 
 if n1 > n2 > n3 or n1 > n3 > n2:
     biggest = n1

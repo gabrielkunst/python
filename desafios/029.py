@@ -6,9 +6,9 @@ O PROGRAMA DEVE LER A VELOCIDADE DE UM CARRO E RETORNAR SE ELE FOI MULTADO. (Vma
 """
 
 print('Seja bem vindo ao multa.net.')
-vel = int(input('Qual foi sua velocidade ao passar pelo radar?'))
+vel = float(input('Qual foi sua velocidade ao passar pelo radar?'))
 if vel > 80:
     print(f'MULTADO! Você passou a {vel}km/h em um radar que é no máximo 80km/h')
-    print(f'O valor da sua multa é: R${(vel-80)*7}')
+    print(f'O valor da sua multa é: R${(vel-80)*7:.2f}')
 else:
     print(f'Tudo certo, você não foi multado.')

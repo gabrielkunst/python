@@ -7,6 +7,6 @@ wage = float(input(f'Qual é o salário do {name.title()}?'))
 ten = ((wage*10)/100) + wage
 fif = ((wage*15)/100) + wage
 if wage <= 1250:
-    print(f'O {name.title()} terá 15% de aumento, seu novo salário é: R${fif}.')
+    print(f'O {name.title()} terá 15% de aumento, seu novo salário é: R${fif:.2f}.')
 else:
-    print(f'O {name.title()} terá 10% de aumento, seu novo aumento será R${ten}. ')
+    print(f'O {name.title()} terá 10% de aumento, seu novo aumento será R${ten:.2f}. ')

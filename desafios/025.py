@@ -1,11 +1,10 @@
 """ 
 PROGRAMA QUE LÊ O NOME 01 E RETORNA SE O NOME 02 ESTÁ NA LISTA.
-- Defini um padrão entre os nomes, ou seja, tudo minúsculo, depois foi feito a lista e baseado na lista + o nome dado, foi analisado se o nome escolhido estava nos colchetes.
 """
 
-name = input('Digite o seu nome:')
+name = str(input('Digite o seu nome:')).strip()
 namelow = name.lower()
-isthere = input('Qual nome você deseja pesquisar se há na lista?')
+isthere = str(input('Qual nome você deseja pesquisar se há na lista?')).strip()
 istherelow = isthere.lower()
 list = namelow.split()
 print(f'A lista é: {list}')

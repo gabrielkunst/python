@@ -1,0 +1,7 @@
+frase = input('Digite uma frase:')
+print(frase[4]) 
+print(frase[::2])
+print(frase[2:10:1])
+print(frase[2:])
+print(frase[:12])
+print(frase[2:12])

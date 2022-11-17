@@ -6,7 +6,7 @@
 from time import sleep
 print('Bom dia, seja bem vindo ao math.net!')
 a = float(input('Qual é o tamanho da primeira reta?'))
-b = float(input('Qual é o tamanho da segunda reta?'))
+b = float(input('Qual é o tamanho   da segunda reta?'))
 c = float(input('Qual é o tamando da terceira reta?'))
 print('\033[1;32mAGUARDE...\033[m')
 sleep(3)

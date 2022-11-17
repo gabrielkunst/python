@@ -29,6 +29,16 @@ elif user == 'pedra' and pc == 'tesoura':
 elif user == 'tesoura' and pc == 'papel':
     print('O usuário \033[1;32mganhou!\033[m')
     print(f'O sistema escolheu {pc}. ')
-print('\033[1;33mBom jogo.\033[m Até mais!')
+elif user == 'papel' and pc == 'papel':
+    print('\033[1;33mEMPATE!\033[m')
+    print(f'Ambos escolheram {user}! ')
+elif user == 'pedra' and pc == 'pedra':
+    print('\033[1;33mEMPATE!\033[m')
+    print(f'Ambos escolheram {user}!')
+elif user == 'tesoura' and pc == 'tesoura':
+    print('\033[1;33mEMPATE!\033[m')
+    print(f'Ambos escolheram {user}!')
+else: 
+    print('Opção inválida. Tente novamente.')
 
 

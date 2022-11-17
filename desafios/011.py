@@ -1,4 +1,4 @@
-name = input('Bom dia! Qual o seu nome?')
+name = str(input('Bom dia! Qual o seu nome?')).strip().title()
 print(f'Seja bem vindo ao Panorama Center, a melhor loja de construção para sua casa, {name}!')
 w = float(input('Quantos metros de largura há sua parede?'))
 h = float(input('Quantos metros de altura há sua parede?'))

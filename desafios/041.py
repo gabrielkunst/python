@@ -21,10 +21,10 @@ elif 9 < age <= 14:
 elif 14 < age <= 19:
     print(f'Você tem {age} anos.')
     print('Você é considerado um nadador junior.')
-elif 19 < age <= 20:
+elif 19 < age <= 25:
     print(f'Você tem {age} anos.')
     print('Você é considerado um nadador sênior.')
-elif age > 20:
+elif age > 25:
     print(f'Você tem {age} anos.')
     print('Você é considerado um nadador máster.')
 else: 

@@ -11,7 +11,7 @@ from time import sleep
 price = float(input('Qual é o valor total do produto? R$'))
 list = ['Dinheiro', 'Cheque', '1x Cartão', '2x Cartão', '3x ou +3x Cartão']
 questions = [
-    inquirer.List('language',
+    inquirer.List('option',
                 message = 'Escolha a forma de pagamento:',
                 choices = list,
                 ),
@@ -25,7 +25,7 @@ twe = price + (price*20)/100
 print('\033[1;31mAGUARDE...\033[m')
 sleep(2)
 
-option = str(answers['language']).lower()
+option = str(answers['option']).lower()
 if option == list[0].lower():
     print(f'O valor do produto será R${ten:.2f}.')
 elif option == list[1].lower():

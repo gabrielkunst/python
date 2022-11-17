@@ -1,4 +1,4 @@
-name = input('Qual é o nome do aluno(a)?')
+name = str(input('Qual é o nome do aluno(a)?')).strip().title()
 n1 = float(input(f'Qual foi a nota do(a) {name} na AV1?'))
 n2 = float(input(f'Qual foi a nota do(a) {name} na AV2?'))
 n3 = float(input(f'Qualf foi a nota do(a) {name} na AV3?'))

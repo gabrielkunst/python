@@ -1,5 +1,5 @@
 """  
-O programa deve mostrar na tela todos os números pares entre o intervalo de 1 a 50.
+Exercício Python 47: Crie um programa que mostre na tela todos os números pares que estão no intervalo entre 1 e 50. 
 """
 from time import sleep
 start = (input('Digite 0 para iniciar o programa: '))

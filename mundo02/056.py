@@ -21,6 +21,8 @@ for i in range(1,5):
         oldermans_name = name
     if age < 20 and sex == 'f':
         womanlesstwenty += 1
+    else:
+        print('Não há mulheres com mais de 20 anos nesse grupo.')
 
 
 print(f'A média das idades é {ageav}.')

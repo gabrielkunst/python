@@ -6,8 +6,8 @@ from random import choice
 from time import sleep
 import inquirer
 
-print('\033[1;32m{:=^40}\033[m' .format(' Vamos Jogar? '))
 
+print('\033[1;32m{:=^40}\033[m' .format(' Vamos Jogar? '))
 #menu para selecionar a jogada
 list = ['Pedra', 'Papel', 'Tesoura']
 questions = [
@@ -19,6 +19,7 @@ questions = [
 answers = inquirer.prompt(questions)
 user = str((answers['options'])).lower()
 pc = str(choice(list)).lower()
+
 
 #timer
 print('\033[1;33mJO\033[m')
@@ -71,10 +72,6 @@ else:
     print('Erro. Tente novamente.')
     
 print('Até mais <3!')
-
-
-
-
 
 
 

@@ -1,3 +1,7 @@
+"""  
+Exercício Python 060: Faça um programa que leia um número qualquer e mostre o seu fatorial. Exemplo:
+5! = 5 x 4 x 3 x 2 x 1 = 120
+"""
 from math import factorial
 from time import sleep
 
@@ -7,7 +11,7 @@ while op != 3:
     print('\n\033[1;32m{:-^40}\033[m'.format(' INÍCIO '))
     
     op = int(input('''\nO que você deseja fazer? 
-[1] Fatorial
+[1] FatorialNP
 [2] Escolher um novo número
 [3] Sair do programa
 Escolha um número: '''))

@@ -10,3 +10,4 @@ for c in range(6):
         soma += num
         cont += 1
 print(f'A soma dos {cont} números pares é {soma}.')
+

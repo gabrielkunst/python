@@ -8,10 +8,10 @@ while True:
     if value < 0:
         print('Você escolheu SAIR! Até mais...')
         break
-    while count < 10:
+    for i in (1,11):
         count += 1
         print(f'{count:2} x {value:2} = {count*value:2}')
-    count = 0
+        count = 0
     
     sleep(0.5)
 

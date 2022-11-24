@@ -1,14 +1,15 @@
 import inquirer
-teams = ('Palmeiras', 'Internacional', 'Fluminense', 'Corinthians', 'Flamengo', 'Athletico-PR', 'Atlético-MG', 'Fortaleza', 'São Paulo', 'América-MG', 'Botafogo', 'Santos', 'Goiás', 'Bragantino', 'Coritiba', 'Cuiabá', 'Ceará SC', 'Atlético-GO', 'Avaí', 'Juventude')
-list = ('Ver colocação', 'Ver os 5 primeiros colocados', 'Ver os 4 últimos colocados', 'Ver os times em ordem alfabética', 'Ver a posição do meu time', 'Sair do programa')
+teams = ('Palmeiras', 'Internacional', 'Fluminense', 'Corinthians', 'Flamengo', 'Vasco', 'Brasil', 'Fortaleza', 'São Paulo','Alemanha', 'Botafogo', 'Santos', 'Goiás', 'Bragantino', 'Coritiba', 'Cuiabá', 'Ceará', 'Piauí', 'Avaí', 'Juventude')
+list = ('Ver colocação', 'Ver os 5 primeiros colocados', 'Ver os 4 últimos colocados',
+        'Ver os times em ordem alfabética', 'Ver a posição do meu time', 'Sair do programa')
 
 while True:
     print('\n')
     questions = [
         inquirer.List('option',
-            message='O que você deseja fazer?',
-            choices= list,
-            ),
+                    message='O que você deseja fazer?',
+                    choices=list,
+                    ),
     ]
     answers = inquirer.prompt(questions)
     option = answers['option']
@@ -23,7 +24,7 @@ while True:
             print(f'{i+1:2}) {teams[i]}')
     elif option == list[2]:
         print('Os últimos 4 colocados foram:')
-        for i in range(16, 20):
+        for i in range(16,20):
             print(f'{i+1:2}) {teams[i]}')
     elif option == list[3]:
         print('A ordem dos times é:')
@@ -33,7 +34,8 @@ while True:
         while True:
             team = str(input('Qual é o seu time? ')).strip().title()
             try:
-                print(f'O {team.title()} ficou na posição {(teams.index(team))+1}')
+                print(
+                    f'O {team.title()} ficou na posição {(teams.index(team))+1}')
                 break
             except ValueError:
                 print('Escreva o nome corretamente.')

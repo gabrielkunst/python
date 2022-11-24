@@ -1,7 +1,9 @@
+
+
 from random import randint
 nums = []
 for i in range(5):
-    nums.append(randint(0, 1000))
+    nums.append(randint(0,1000))
 nums = tuple(nums)
 print(f'A tupla formada foi: {nums}')
 print(f'O maior valor é {max(nums)}')

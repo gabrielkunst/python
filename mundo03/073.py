@@ -1,6 +1,6 @@
 import inquirer
 teams = ('Palmeiras', 'Internacional', 'Fluminense', 'Corinthians', 'Flamengo', 'Athletico-PR', 'Atlético-MG', 'Fortaleza', 'São Paulo', 'América-MG', 'Botafogo', 'Santos', 'Goiás', 'Bragantino', 'Coritiba', 'Cuiabá', 'Ceará SC', 'Atlético-GO', 'Avaí', 'Juventude')
-list = ['Ver colocação', 'Ver os 5 primeiros colocados', 'Ver os 4 últimos colocados', 'Ver os times em ordem alfabética', 'Ver a posição do meu time', 'Sair do programa']
+list = ('Ver colocação', 'Ver os 5 primeiros colocados', 'Ver os 4 últimos colocados', 'Ver os times em ordem alfabética', 'Ver a posição do meu time', 'Sair do programa')
 
 while True:
     print('\n')

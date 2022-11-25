@@ -1,7 +1,5 @@
 """ 
-O programa deve ler um número e retornar se este é par ou ímpar.
-1) Input do usuário
-2) IF num%2 == 0: even num else: odd num
+Exercício Python 30: Crie um programa que leia um número inteiro e mostre na tela se ele é PAR ou ÍMPAR.
 """
 from time import sleep
 print('Bem vindo ao number-analysis.net!')

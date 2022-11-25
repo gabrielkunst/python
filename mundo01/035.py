@@ -1,13 +1,5 @@
 """  
-O programa ler três comprimentos de reta e retornar se estas podem ou não formar um triângulo.
-1) Input do comprimento das retas
-2) Calcular se pode ou não formar um triângulo
-
-EQ?
-a + b > c
-a + c > b
-b + c > a
-
+Exercício Python 35: Desenvolva um programa que leia o comprimento de três retas e diga ao usuário se elas podem ou não formar um triângulo.
 """
 from time import sleep
 print('Bom dia. Seja bem vindo ao matemática.net!')

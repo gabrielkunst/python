@@ -1,3 +1,15 @@
+"""  
+Exercício Python 73: Crie uma tupla preenchida com os 20 primeiros colocados da Tabela do Campeonato Brasileiro de Futebol, na ordem de colocação. Depois mostre:
+
+a) Os 5 primeiros times.
+
+b) Os últimos 4 colocados.
+
+c) Times em ordem alfabética.
+
+d) Em que posição está o time da Chapecoense.
+"""
+
 import inquirer
 teams = ('Palmeiras', 'Internacional', 'Fluminense', 'Corinthians', 'Flamengo', 'Vasco', 'Brasil', 'Fortaleza', 'São Paulo','Alemanha', 'Botafogo', 'Santos', 'Goiás', 'Bragantino', 'Coritiba', 'Cuiabá', 'Ceará', 'Piauí', 'Avaí', 'Juventude')
 list = ('Ver colocação', 'Ver os 5 primeiros colocados', 'Ver os 4 últimos colocados',

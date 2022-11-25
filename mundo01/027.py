@@ -1,5 +1,5 @@
 """ 
-O PROGRAMA DEVE LER O NOME DA PESSOA E DEFINIR O PRIMERO E O ÚLTIMO NOME, E MOSTRÁ-LOS SEPARADAMENTE.
+Exercício Python 27: Faça um programa que leia o nome completo de uma pessoa, mostrando em seguida o primeiro e o último nome separadamente. 
 """
 
 name = str(input('Digite um nome:')).strip

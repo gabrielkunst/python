@@ -1,5 +1,5 @@
 """  
-O programa deve ler o salário de um funcionário e retornar se ele terá 10 ou 15% de aumento, baseado em 1250 reais (maior que isso é 10%, menor é 15%.)
+Exercício Python 34: Escreva um programa que pergunte o salário de um funcionário e calcule o valor do seu aumento. Para salários superiores a R$1250,00, calcule um aumento de 10%. Para os inferiores ou iguais, o aumento é de 15%.
 """
 
 name = input('Bom dia. Qual é o nome do funcionário?')

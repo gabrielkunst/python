@@ -1,3 +1,7 @@
+"""  
+Exercício Python 003: Crie um programa que leia dois números e mostre a soma entre eles.
+"""
+
 n1 = int(input('Digite um valor:'))
 n2 = int(input('Digite um outro valor:'))
 op = str(input('Qual das operações a seguir você deseja fazer: soma, subtração, multiplicação ou divisão?')).strip().lower()

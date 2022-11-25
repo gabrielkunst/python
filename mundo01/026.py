@@ -1,5 +1,5 @@
 """ 
-O PROGRAMA DEVE LER UMA FRASE DEFINIDA PELO USUÁRIO E DEVE CONTAR O NÚMERO DE "A" E AONDE ESTE APARECE.
+Exercício Python 26: Faça um programa que leia uma frase pelo teclado e mostre quantas vezes aparece a letra “A”, em que posição ela aparece a primeira vez e em que posição ela aparece a última vez.
 """
 
 ph = str(input('Digite uma frase:')).strip()

@@ -1,5 +1,5 @@
 """  
-O programa deve ler 3 números inserido pelo usuário e dizer qual é o menor e qual é o maior.
+Exercício Python 33: Faça um programa que leia três números e mostre qual é o maior e qual é o menor.
 """
 
 n1 = int(input('Insira o primeiro número:'))

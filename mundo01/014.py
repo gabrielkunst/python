@@ -1,3 +1,7 @@
+"""  
+Exercício Python 14: Escreva um programa que converta uma temperatura digitando em graus Celsius e converta para graus Fahrenheit.
+"""
+
 print('Bom dia, seja bem vindo ao temper.net!')
 num = float(input('Informe a temperatura:'))
 print('''Qual métrica de temperatura você deseja? \n [1] Celsius para Fahrenheit \n [2] Fahrenheit para Celsius''')

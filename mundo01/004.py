@@ -1,3 +1,7 @@
+"""  
+Exercício Python 004: Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possíveis sobre ele.
+"""
+
 v = input('Digite algo:')
 print(f'A classe primitiva de {v} é: {type(v)}')
 print(f'É tudo maiúsculo? {v.isupper()}')

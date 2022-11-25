@@ -1,9 +1,5 @@
 """ 
-O COMPUTADOR DEVE PENSAR EM UM NÚMERO ENTRE 0 E 5 E PEDIR PARA O USUÁRIO DESCOBRIR QUAL FOI O NÚMERO ESCOLHIDO. DEVE-SE USAR IF PARA MOSTRAR O RESULTADO AO USUÁRIO.
-1) O PC DEVE ESCOLHER UM NÚMERO
-2) PEDIR PARA O USUÁRIO QUAL FOI O NÚMERO ESCOLHIDO
-3) RETORNAR AO USUÁRIO A RESPOSTA.
-4) Pode até colocar um time.sleep() para ficar mais legal.
+Exercício Python 28: Escreva um programa que faça o computador “pensar” em um número inteiro entre 0 e 5 e peça para o usuário tentar descobrir qual foi o número escolhido pelo computador. O programa deverá escrever na tela se o usuário venceu ou perdeu.
 """
 import random
 num = random.randrange(6)

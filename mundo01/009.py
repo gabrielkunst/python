@@ -1,3 +1,7 @@
+"""  
+Exercício Python 9: Faça um programa que leia um número Inteiro qualquer e mostre na tela a sua tabuada.
+"""
+
 n = int(input('Digite um número inteiro:'))
 print(f'O número escolhido foi {n}.')
 print(f'{n} x  1 = {n*1}')

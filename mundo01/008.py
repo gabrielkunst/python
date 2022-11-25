@@ -1,3 +1,7 @@
+"""  
+Exercício Python 8: Escreva um programa que leia um valor em metros e o exiba convertido em centímetros e milímetros.
+"""
+
 print('Bem vindo ao conversor.net!')
 m = float(input('Quantos metros você deseja converter?'))
 

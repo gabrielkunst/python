@@ -1,8 +1,5 @@
 """ 
-O PROGRAMA DEVE LER A VELOCIDADE DE UM CARRO E RETORNAR SE ELE FOI MULTADO. (Vmax = 80km/h, Multa = R$7*km(acima do max))
-1) QUAL FOI A VELOCIDADE DO CARRO
-2) FOI MULTADO?
-3) SE SIM, QUAL O VALOR DA MULTA
+Exercício Python 29: Escreva um programa que leia a velocidade de um carro. Se ele ultrapassar 80Km/h, mostre uma mensagem dizendo que ele foi multado. A multa vai custar R$7,00 por cada Km acima do limite.
 """
 
 print('Seja bem vindo ao multa.net.')

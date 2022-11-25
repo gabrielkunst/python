@@ -1,11 +1,5 @@
 """  
-O programa deve ler o ano inputado pelo usuário e retornar se é ou não um ano bissexto.
-1) input do ano
-2) IF bissexto: print else: print
-
-BISSEXTO:
-- YEAR%4 = 0
-- Caso termine com 00, YEAR/4 = 400
+Exercício Python 32: Faça um programa que leia um ano qualquer e mostre se ele é bissexto.
 """
 from time import sleep
 from datetime import date

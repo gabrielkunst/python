@@ -23,6 +23,7 @@ while True:
                     choices=list,
                     ),
     ]
+    
     answers = inquirer.prompt(questions)
     option = answers['option']
 

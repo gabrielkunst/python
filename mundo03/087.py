@@ -30,7 +30,9 @@ for i in range(9):
         else:
             numbers[1].append(num)
 print(f'A matriz formada foi:')           
-print(f'{rows[0]}\n{rows[1]}\n{rows[2]}')
+print(f'[{rows[0][0]:^5}] [{rows[0][1]:^5}] [{rows[0][2]:^5}]')
+print(f'[{rows[1][0]:^5}] [{rows[1][1]:^5}] [{rows[1][2]:^5}]')
+print(f'[{rows[2][0]:^5}] [{rows[2][1]:^5}] [{rows[2][2]:^5}]')
 print('\n')
 print(f'Os números pares digitados foram: {numbers[0]}')
 print(f'Os números ímpares digitados foram: {numbers[1]}')

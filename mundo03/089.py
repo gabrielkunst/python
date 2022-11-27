@@ -21,9 +21,9 @@ print()
 print('\033[1;32m-\033[m'*40)
 print('\033[1;32m{:^40}\033[m' .format(' BOLETIM '))
 print('\033[1;32m-\033[m'*40)
-print('{:<36}{:>4}' .format('NOME','MÉDIA'))
+print('{:<34}{:>6}' .format('NOME','MÉDIA'))
 for c, i in enumerate(range(0, len(list))):
-    print(f'{c}){list[i][0]:<36}{list[i][2]:<4}')
+    print(f'{c}) {list[i][0]:<31}{list[i][2]:>6}')
 sleep(3)
 while True:    
     num = int(input('Para ver as notas de um aluno, digite o seu respectivo número: (999 para sair) '))

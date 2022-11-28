@@ -44,3 +44,5 @@ while True:
         print('Até mais...')
         sleep(2)
         break
+
+print(dic)

@@ -1,3 +1,7 @@
+"""  
+Exercício Python 090: Faça um programa que leia nome e média de um aluno, guardando também a situação em um dicionário. No final, mostre o conteúdo da estrutura na tela.
+"""
+
 from time import sleep
 dic = {}
 print('\033[1;32m-\033[m'*40)

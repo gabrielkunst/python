@@ -1,3 +1,7 @@
+"""  
+Exercício Python 084: Faça um programa que leia nome e peso de várias pessoas,                                      guardando tudo em uma lista. No final, mostre:                                                                                                    A) Quantas pessoas foram cadastradas.                                                                                                                B) Uma listagem com as pessoas mais pesadas.                                                                                                    C) Uma listagem com as pessoas mais leves.
+"""
+
 list = [[],[[],[]],[[],[]]] #lista 1 = nome, lista 2 = leve, lista 3 = pesados
 while True:
     name = str(input('Digite o seu nome: ')).strip().lower()

@@ -6,5 +6,7 @@ import uteis
 from time import sleep
 
 #PROGRAMA PRINCIPAL
-n = float(input('\033[1;32mDigite um valor: \033[m'))
-uteis.resumo(n)
+num = uteis.validadorfloat('Digite um número: ')
+tu = uteis.validadorint('Porcentagem de aumento: ')
+td = uteis.validadorint('Porcentagem de desconto: ')
+uteis.resumo(num, tu, td)

@@ -36,18 +36,35 @@ def dob(n=0,format=False):
 def moeda(n=0,m='R$'):
     return f'{m}{n:.2f}'.replace('.',',')
 
-def validador():
+def validadorfloat(msg):
     while True:
-        n = float(input('\033[1;32mDigite um valor: \033[m'))
         try:
-            value = float(n)
-            return value
+            value = float(input(msg))
         except ValueError:
             print('\033[1;31mERRO! Digite um valor VÁLIDO!\033[m') 
+            continue
+        else:
+            return value
+        
 
 def resumo(n=0, tu=0, td=0):
     linha()
     print('{:^40}' .format('PAINEL'))
     linha()
-#    print('{:<30}{:>10}' .format())
-#fazer tabela
+    print(f'Preço analisado: \t\t{moeda(n)}')
+    print(f'Aumentando em {tu}%: \t\t{moeda(aum(n, tu))}')
+    print(f'Diminuindo em {td}%: \t\t{moeda(dim(n, td))}')
+    print(f'Metade do preço: \t\t{moeda(met(n))}')
+    print(f'Dobro do preço: \t\t{moeda(dob(n))}')
+    linha()
+
+def validadorint(msg):
+    while True:
+        try:
+            value = int(input(msg))
+        except ValueError:
+            return '\033[1;31mERRO! Digite um valor VÁLIDO!\033[m'
+        else:
+            return value
+
+

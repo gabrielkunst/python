@@ -1,5 +1,6 @@
 import inquirer
-from time import sleep
+from time import sleep  
+
 tot = []
 temp = []
 count = 0
